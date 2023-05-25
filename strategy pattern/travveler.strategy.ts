@@ -27,7 +27,7 @@ class DirectionForWalker implements Direction {
 
 const humanTraveler = new Travel(new DirectionForWalker());
 
-const carTraveler = new Travel(new DirectionForWalker());
+const carTraveler = new Travel(new DirectionForCar());
 
 console.log(humanTraveler.calculateRoad(5, 5));
 
